@@ -1,0 +1,22 @@
+{
+  "name": "forse",
+  "version": "1.0.0",
+  "description": "Simple wrapper to 'Forse' web api. Many thanks to Mattia Piccinetti who created it and gave us such a funny toy!",
+  "main": "forse.js",
+  "scripts": {
+    "test": "lab test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carlozamagni/forse.git"
+  },
+  "author": "Carlo Zamagni",
+  "license": "ISC",
+  "dependencies": {
+    "request": "2.74.0"
+  },
+  "devDependencies": {
+    "code": "^3.0.1",
+    "lab": "^10.9.0"
+  }
+}
