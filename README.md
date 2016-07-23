@@ -1,6 +1,6 @@
 # forse
 
-Forse is a basic wrapper to the funny web api 'forse' by [@peachofpersia](https://twitter.com/peachofpersia). You can browse the tips @ [http://forse.herokuapp.com/](forse.herokuapp.com)
+Forse is a basic wrapper to the funny web api 'forse' by [@peachofpersia](https://twitter.com/peachofpersia). You can browse the tips @ [forse.herokuapp.com](http://forse.herokuapp.com)
 
 Currently only retrieving of random tips is supported:
 
