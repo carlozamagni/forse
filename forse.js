@@ -2,9 +2,8 @@
 
 const req = require('request')
 
-function forse(obj){
-
-  var httpRequest = {
+function forse (obj) {
+  const httpRequest = {
     headers: {
       'User-Agent': (obj && obj.userAgent) || 'forse-nodejs-module',
       'Content-Type': 'application/json'
@@ -12,22 +11,20 @@ function forse(obj){
   }
 
   const moduleInterface = {
-    random : randomTip,
+    random: randomTip
   }
 
   return moduleInterface
 
-  function randomTip(cb){
-    httpRequest['url'] = 'http://forse.herokuapp.com/api/tips/random'
+  function randomTip (cb) {
+    httpRequest.url = 'http://forse.herokuapp.com/api/tips/random'
 
-    req(httpRequest, (err, response, responseBody)=>{
-      if(err || response.statusCode != 200) return cb(err)
+    req(httpRequest, (err, response, responseBody) => {
+      if (err || response.statusCode !== 200) return cb(err)
 
       return cb(null, JSON.parse(responseBody))
     })
   }
-
-
 }
 
 module.exports = forse

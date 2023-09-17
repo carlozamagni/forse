@@ -13,10 +13,11 @@
   "author": "Carlo Zamagni",
   "license": "ISC",
   "dependencies": {
-    "request": "2.74.0"
+    "request": "^2.74.0"
   },
   "devDependencies": {
     "code": "^3.0.1",
-    "lab": "^10.9.0"
+    "lab": "^18.0.2",
+    "standard": "^17.1.0"
   }
 }
